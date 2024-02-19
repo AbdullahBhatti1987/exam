@@ -97,7 +97,9 @@ div {
     border: 50%;
     
 }
-
+.backend img{
+  width: 30%;
+}
 .main-container a{
     display: flex;
     justify-content: center;
