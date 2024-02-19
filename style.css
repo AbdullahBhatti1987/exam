@@ -5,6 +5,7 @@
 }
 :root {
   --bggreen: green;
+  --button: #CEE3FF;
 }
 
 body {
@@ -27,6 +28,9 @@ div {
 }
 .bgaqua {
   background-color: aqua;
+}
+.bgbutton{
+  background-color: var(--button);
 }
 .text-red {
   color: red;
@@ -95,7 +99,9 @@ div {
 .main-container a img{
     width: 50px;
     border: 50%;
-    
+}
+.search button{
+  width: 180px;
 }
 .backend img{
   width: 30%;
@@ -111,3 +117,8 @@ div {
     border: 2px solid white;
     border-radius: 50%;
 } 
+.card p{
+  border-radius: 20px;
+  margin: 5px;
+
+}
